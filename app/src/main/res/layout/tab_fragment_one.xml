@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4c7ff4"
+    android:elevation="1dp">
+
+    <Button
+        android:text="Stack"
+        android:id="@+id/stack"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_alignTop="@+id/array"
+        android:layout_centerHorizontal="true"
+        android:layout_width="110dp"
+        android:layout_height="108dp" />
+
+    <Button
+        android:text="Array"
+        android:id="@+id/button"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="108dp"
+        android:layout_width="110dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:text="Hash Table"
+        android:id="@+id/hashtable"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_alignTop="@+id/linkedlist"
+        android:layout_alignLeft="@id/stack"
+        android:layout_alignStart="@id/stack"
+        android:layout_height="108dp" />
+
+    <Button
+    android:layout_width="110dp"
+        android:text="Linked List"
+    android:id="@id/linkedlist"
+    android:background="@drawable/button_enabled"
+    android:visibility="visible"
+    android:textColor="#2408ff"
+    android:layout_marginTop="49dp"
+    android:layout_below="@id/array"
+    android:layout_alignLeft="@id/array"
+    android:layout_alignStart="@id/array"
+        android:layout_height="108dp" />
+
+    <Button
+        android:text="Queue"
+        android:id="@+id/queue"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_alignTop="@id/stack"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="110dp"
+        android:layout_height="108dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <Button
+        android:layout_width="110dp"
+        android:text="Red-black tree"
+        android:id="@+id/first_link"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_alignTop="@+id/btree"
+        android:layout_centerHorizontal="true"
+        android:layout_height="108dp" />
+
+    <Button
+        android:text="Array"
+        android:id="@+id/array"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="108dp"
+        android:layout_width="110dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:text="Binary Search Tree"
+        android:id="@+id/bst"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_alignTop="@+id/hashtable"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="108dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:text="avl tree"
+        android:id="@+id/second_link"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_alignTop="@+id/first_link"
+        android:layout_alignLeft="@+id/bst"
+        android:layout_alignStart="@+id/bst"
+        android:layout_height="108dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:text="B-tree"
+        android:id="@+id/btree"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_marginTop="47dp"
+        android:layout_height="108dp"
+        android:layout_below="@+id/linkedlist"
+        android:layout_alignLeft="@+id/linkedlist"
+        android:layout_alignStart="@+id/linkedlist" />
+
+</RelativeLayout>

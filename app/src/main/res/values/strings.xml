@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Big(O)</string>
+
+    <string name = "array">Array</string>
+    <string name = "stack">Stack</string>
+    <string name = "queue">Queue</string>
+    <string name = "linkedlist">Linked List</string>
+    <string name = "hashtable">Hash Table</string>
+    <string name = "bst">Binary Search Tree</string>
+    <string name = "btree">B-Tree</string>
+    <string name = "rbt">Red-Black Tree</string>
+    <string name = "avl">AVL Tree</string>
+
+    <string name = "bucketsort">Bucket Sort</string>
+    <string name = "bubblesort">Bubble Sort</string>
+    <string name = "insertionsort">Insertion Sort</string>
+    <string name = "selectionsort">Selection Sort</string>
+    <string name = "heapsort">Heap Sort</string>
+    <string name = "mergesort">Merge Sort</string>
+    <string name = "quicksort">Quick Sort</string>
+    <string name = "radixsort">Radix Sort</string>
+    <string name = "countingsort">Counting Sort</string>
+
+    <string name="o_n">	&#937;(n)</string>
+    <string name="o_n_2">&#920;(n^2)</string>
+    <string name="n_k">&#920;(n+k)</string>
+    <string name="n_kk">&#937;(n+k)</string>
+    <string name="nlg_n">&#920;(nlog(n))</string>
+    <string name="nlg_nn">&#937;(nlog(n))</string>
+    <string name="nk">&#937;(nk)</string>
+    <string name="nkk">&#920;(nk)</string>
+    <string name="n_2">&#937;(n^2)</string>
+    <string name="n">&#920;(n)</string>
+    <string name="one">&#920;(1)</string>
+    <string name="lgn">&#920;(log(n))</string>
+
+    <string name="rate">Rate</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4c7ff4">
+
+    <Button
+        android:text="MERGESORT"
+        android:id="@+id/mergesort"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_alignTop="@+id/quicksort"
+        android:layout_centerHorizontal="true"
+        android:layout_height="108dp"
+        android:layout_width="112dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="108dp"
+        android:text="BUBBLE SORT"
+        android:id="@+id/bubblesort"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/quicksort"
+        android:layout_alignLeft="@+id/quicksort"
+        android:layout_alignStart="@+id/quicksort" />
+
+    <Button
+        android:layout_width="110dp"
+        android:text="INSERTION SORT"
+        android:id="@+id/insertionsort"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_alignTop="@+id/bubblesort"
+        android:layout_alignLeft="@+id/mergesort"
+        android:layout_alignStart="@+id/mergesort"
+        android:layout_height="108dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:text="RADIX SORT"
+        android:id="@+id/radixsort"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_alignTop="@+id/bucketsort"
+        android:layout_alignLeft="@+id/insertionsort"
+        android:layout_alignStart="@+id/insertionsort"
+        android:layout_height="108dp" />
+
+
+    <Button
+        android:layout_width="110dp"
+        android:text="QUICKSORT"
+        android:id="@+id/quicksort"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_marginTop="63dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="110dp"
+        android:text="Bucket Sort"
+        android:id="@+id/bucketsort"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_marginTop="47dp"
+        android:layout_height="108dp"
+        android:layout_below="@+id/bubblesort"
+        android:layout_alignLeft="@+id/bubblesort"
+        android:layout_alignStart="@+id/bubblesort" />
+
+    <Button
+        android:text="Selection Sort"
+        android:id="@+id/selectionsort"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_width="110dp"
+        android:layout_height="108dp"
+        android:layout_alignTop="@+id/insertionsort"
+        android:layout_alignLeft="@+id/countingsort"
+        android:layout_alignStart="@+id/countingsort"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <Button
+        android:text="HEAPSORT"
+        android:id="@+id/heapsort"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_alignTop="@id/mergesort"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="110dp"
+        android:layout_height="108dp"/>
+
+    <Button
+        android:text="Counting sort"
+        android:id="@+id/countingsort"
+        android:background="@drawable/button_enabled"
+        android:visibility="visible"
+        android:textColor="#2408ff"
+        android:layout_width="110dp"
+        android:layout_height="108dp"
+        android:layout_alignTop="@+id/radixsort"
+        android:layout_alignLeft="@+id/heapsort"
+        android:layout_alignStart="@+id/heapsort" />
+
+</RelativeLayout>
